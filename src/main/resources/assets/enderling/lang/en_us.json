@@ -2,5 +2,8 @@
   "item.enderling.end_key": "End Key",
   "item.enderling.enderling": "Enderling",
 
+  "block.enderling.enderling_planks": "Enderling Planks",
+  "block.enderling.enderling_ore": "Enderling Ore",
+
   "itemGroup.enderlingtab": "Enderling Tab"
 }

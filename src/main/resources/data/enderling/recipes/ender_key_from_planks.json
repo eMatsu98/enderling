@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enderling:enderling_planks"
+    }
+  ],
+  "result": {
+    "item": "enderling:ender_key",
+    "count": 9
+  }
+}

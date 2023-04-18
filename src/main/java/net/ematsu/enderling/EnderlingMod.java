@@ -1,6 +1,7 @@
 package net.ematsu.enderling;
 
 import com.mojang.logging.LogUtils;
+import net.ematsu.enderling.block.ModBlocks;
 import net.ematsu.enderling.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class EnderlingMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
